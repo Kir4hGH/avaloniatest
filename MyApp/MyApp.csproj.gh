@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Avalonia\src\Avalonia.Base\Avalonia.Base.csproj" />
+    <ProjectReference Include="..\Avalonia\src\Avalonia.Controls\Avalonia.Controls.csproj" />
+    <ProjectReference Include="..\Avalonia\src\Avalonia.Desktop\Avalonia.Desktop.csproj" />
+    <ProjectReference Include="..\Avalonia\src\Avalonia.Themes.Fluent\Avalonia.Themes.Fluent.csproj" />
+    <ProjectReference Include="..\src\Markup\Avalonia.Markup.Xaml.Loader\Avalonia.Markup.Xaml.Loader.csproj" />
+    <ProjectReference Include="..\Avalonia\src\Avalonia.Fonts.Inter\Avalonia.Fonts.Inter.csproj" />
+    <AvaloniaResource Include="Assets\**" />
+  </ItemGroup>
+  <Import Project="..\Avalonia\build\EmbedXaml.props" />
+  <Import Project="..\Avalonia\build\BuildTargets.targets" />
+</Project>        
+     
