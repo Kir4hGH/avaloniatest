@@ -64,3 +64,4 @@
 /home/kir4h/storage/software/test/avaloniatest/MyApp/obj/Debug/net10.0/MyApp.csproj.Up2Date
 /home/kir4h/storage/software/test/avaloniatest/MyApp/obj/Debug/net10.0/MyApp.genruntimeconfig.cache
 /home/kir4h/storage/software/test/avaloniatest/MyApp/obj/Debug/net10.0/ref/MyApp.dll
+/home/kir4h/storage/software/test/avaloniatest/MyApp/obj/Debug/net10.0/MyApp.sourcelink.json
